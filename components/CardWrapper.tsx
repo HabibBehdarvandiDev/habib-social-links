@@ -76,7 +76,7 @@ const CardWrapper = () => {
             variants={container}
             initial="hidden"
             animate="visible"
-            className="w-full h-lvh max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto p-4"
+            className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto p-4 "
         >
             <Card className="relative rounded-2xl overflow-hidden">
                 <ThemeSwitcher />
