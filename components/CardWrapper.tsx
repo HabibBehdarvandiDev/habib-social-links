@@ -6,6 +6,7 @@ import ProfilePic from "@/public/profile-pic.jpg";
 import { motion } from "framer-motion";
 import {
     Github,
+    InstagramIcon,
     Linkedin,
     MapPin,
     Music2Icon,
@@ -54,14 +55,19 @@ const DATA: { label: string; icon: React.ReactNode; href: string }[] = [
         href: "https://t.me/habibetoon",
     },
     {
-        label: "Linkedin",
-        icon: <Linkedin className="mr-2" />,
-        href: "https://ir.linkedin.com/in/habib-behdarvandi-942977276?trk=public_profile_samename-profile",
+        label: "Instagram",
+        icon: <InstagramIcon className="mr-2" />,
+        href: "https://www.instagram.com/habibetoon",
     },
     {
         label: "Twitter",
         icon: <Twitter className="mr-2" />,
         href: "https://x.com/habibetoonx",
+    },
+    {
+        label: "Linkedin",
+        icon: <Linkedin className="mr-2" />,
+        href: "https://ir.linkedin.com/in/habib-behdarvandi-942977276?trk=public_profile_samename-profile",
     },
     {
         label: "Spotify",
