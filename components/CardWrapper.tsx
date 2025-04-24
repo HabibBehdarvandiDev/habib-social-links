@@ -5,10 +5,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import ProfilePic from "@/public/profile-pic.jpg";
 import { motion } from "framer-motion";
 import {
-    Computer,
     Github,
     Linkedin,
     MapPin,
+    Music2Icon,
     Send,
     Twitter,
 } from "lucide-react";
@@ -64,9 +64,9 @@ const DATA: { label: string; icon: React.ReactNode; href: string }[] = [
         href: "https://x.com/habibetoonx",
     },
     {
-        label: "Repositories",
-        icon: <Computer className="mr-2" />,
-        href: "https://github.com/HabibBehdarvandiDev?tab=repositories",
+        label: "Spotify",
+        icon: <Music2Icon className="mr-2" />,
+        href: "https://open.spotify.com/user/31pg256uk6szasvsz5ei4xts27c4?si=ZX7bchc9RlOAN-8y-ss5lQ",
     },
 ];
 
