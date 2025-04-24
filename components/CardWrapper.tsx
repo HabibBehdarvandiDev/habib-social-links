@@ -2,7 +2,7 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
-import ProfilePic from "@/public/profile-pic.jpg";
+import ProfilePic from "@/public/IMG_6614.jpg";
 import { motion } from "framer-motion";
 import {
     Github,
